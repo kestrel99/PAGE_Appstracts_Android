@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="1mm">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/code"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:paddingLeft="3mm"
+            android:paddingRight="1.5mm"
+            android:text="II-16"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor"
+        android:textSize="14sp"
+        android:padding="3mm"
+        android:singleLine="false"
+        android:layout_weight="100"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="50sp"
+        android:text="Age-Corrected Creatinine is a Significant Covariate for Gentamicin Clearance in Neonates asdf asd fasdf  asdf asdf asdf adfs adsf asdfasd f asdfdasfasdf asdf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="10dp">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/author"
+            android:gravity="left"
+            android:textColor="@color/textColorLight"
+            android:textSize="14sp"
+            android:singleLine="false"
+            android:paddingLeft="3mm"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="fill_parent"
+            android:text="Eva Germovsek" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/date"
+            android:gravity="right"
+            android:textColor="@color/textColorLight"
+            android:textSize="14sp"
+            android:singleLine="false"
+            android:paddingRight="3mm"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="fill_parent"
+            android:text="Wednesday 14:50-16:20" />
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.pagemeeting.App2011.MainNavigation">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchText"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="2mm"
+            android:drawableRight="@android:drawable/ic_menu_search"/>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:id="@android:id/list"
+            android:layout_gravity="left|top"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/abstract_item" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>
