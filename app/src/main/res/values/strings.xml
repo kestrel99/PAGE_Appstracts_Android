@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Abstracts</string>
+    <string name="app_name">Appstracts</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="last_modified_database">"last-modified-database"</string>

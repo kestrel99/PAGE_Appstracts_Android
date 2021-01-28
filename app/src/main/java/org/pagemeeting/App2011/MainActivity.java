@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void SetPageTitle() {
-        String title = "PAGE Abstracts";
+        String title = "PAGE Appstracts";
 
         Fragment activeFragment = getActiveFragment(mViewPager);
         /*if (activeFragment != null) {
